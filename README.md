@@ -1,12 +1,71 @@
-# React + Vite
+# 📝 Taskify – React + Express Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Taskify is a fullstack CRUD application that lets users create, edit, delete, and track tasks with completion status. Built using **React**, **Tailwind CSS**, **Express.js**, and **MongoDB Atlas**, it's a clean and minimal productivity app ideal for showcasing MERN stack skills.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [taskify.impritam.com](https://taskify.impritam.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Features
+
+- ✅ Create new tasks with title & description
+- ✅ Mark tasks as completed (checkbox)
+- ✅ Edit and update existing tasks
+- ✅ Delete tasks with one click
+- ✅ Beautiful, responsive UI with Tailwind
+- ✅ Toast notifications for feedback
+- ✅ RESTful API (MongoDB + Express)
+
+---
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+
+- React
+- React Router DOM
+- Tailwind CSS
+- React Toastify
+
+**Backend**
+
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- CORS + dotenv
+
+---
+
+## 📁 Folder Structure
+
+    taskify-frontend/
+    ├── src/
+    │ ├── components/ # Reusable UI components
+    │ ├── pages/ # Route-level pages (Home, AddTask, EditTask)
+    │ ├── hooks/ # Custom hook (useTaskForm)
+    │ └── App.jsx
+    taskify-api/
+    ├── models/
+    ├── routes/
+    ├── server.js
+
+---
+
+## 📚 Related Projects
+
+- 👨‍💻 Portfolio: [impritam.com](https://impritam.com)
+- 💼 All Projects: [projects.impritam.com](https://projects.impritam.com)
+
+---
+
+## 🤝 Contributing
+
+This project is built as a solo showcase app, but feel free to fork, clone, and improve!
+
+---
